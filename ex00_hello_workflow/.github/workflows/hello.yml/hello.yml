@@ -1,13 +1,10 @@
-name: CI pipeline test
+name: Hello ZeroOps
 
 on: [push]
 
 jobs:
-  say-hello:
+  hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v4
-
-      - name: Run a one-line message
-        run: echo "Hello, world!"
+      - name: Print welcome message
+        run: echo "Welcome to ZeroOps!"
