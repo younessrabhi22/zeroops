@@ -4,7 +4,7 @@ name: Context Workflow
 on: [push]
 
 jobs:
-  print-context:
+  frontend:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
